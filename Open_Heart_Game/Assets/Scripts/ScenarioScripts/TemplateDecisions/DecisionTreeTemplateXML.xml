@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <decisionScript GameObject="TestSphere" name="HeartClampDecisionManager"/>
+  <subscribedClass GameObject="TestObject" name="TestSubscribedClass"/>
+  <onNodeEntryClass GameObject="TestObject" name="TestOnNodeEntryClass"/>
+  <correctChild>
+    <decisionScript GameObject="TestSphere" name="HeartClampDecisionManager"/>
+    <onNodeEntryClass GameObject="Capsule" name="OnEntryCorrectChildTest"/>
+    <correctChild>
+      <decisionScript GameObject="TestSphere" name="HeartClampDecisionManager"/>
+      <onNodeEntryClass GameObject="Capsule" name="OnEntryCorrectChildTest"/>
+    </correctChild>
+  </correctChild>
+  <incorrectChild>
+    <decisionScript GameObject="Capsule" name="TestIncorrectChildDecisionManager"/>
+  </incorrectChild>
+
+</root>

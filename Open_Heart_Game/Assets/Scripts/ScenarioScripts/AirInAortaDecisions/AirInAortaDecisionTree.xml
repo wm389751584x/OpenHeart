@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <decisionScript GameObject="AortaTubePlacement" name="CannulateAortaDecisionManager"/>
+ 
+  <correctChild>
+    <decisionScript GameObject="ClampDecisionObject" name="ClampAortaDecisionManager"/>
+    <subscribedClass GameObject="ClampDecisionObject" name="LeaveAortaClampSubscribed"/>
+    <subscribedClass GameObject="ClampDecisionObject" name="StopHeartOnAortaClampSubscribed"/>
+    <correctChild>
+      <decisionScript GameObject="Pump" name="PumpOnDecisionManager"/>
+      <correctChild>
+        <decisionScript GameObject="ShowAirInArterialLineGameObject" name="ShowAirInArterialLineDecisionManager"/>
+        <correctChild>
+          <decisionScript GameObject="Pump" name="PumpOffDecisionManager"/>
+          <correctChild>
+            <decisionScript GameObject="TrendelenburgDecisionObject" name="TrendelenburgDecisionManager"/>
+            <correctChild>
+              <decisionScript GameObject="AspirateAirDecisionObject" name="AspirateAirFromAortaDecisionManager"/>
+              <correctChild>
+                <decisionScript GameObject="AorticRootVentBubblesDecisionGameObject" name="AorticRootVentBubblesDecisionManager"/>
+              </correctChild>
+            </correctChild>
+          </correctChild>
+        </correctChild>
+        
+      </correctChild>
+    </correctChild>
+    
+    <incorrectChild>
+    
+    </incorrectChild>
+  </correctChild>
+</root>

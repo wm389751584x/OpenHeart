@@ -1,0 +1,44 @@
+﻿<grammar version="1.0" xml:lang="en-US" root="rootRule" tag-format="semantics/1.0-literals" xmlns="http://www.w3.org/2001/06/grammar">
+  <rule id="rootRule">
+    <one-of>
+      <item>
+        <tag>PUMPON</tag>
+        <one-of>
+          <item> pump on </item>          
+        </one-of>
+      </item>
+      <item>
+        <tag>PUMPOFF</tag>
+        <one-of>
+          <item> pump off </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>CLAMPLINES</tag>
+        <one-of>
+          <item> clamp lines </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>TREND</tag>
+        <one-of>
+          <item> Trendelenburg position </item>
+          <item> tilt table </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>BUMP</tag>
+        <one-of>
+          <item> Bump your arterial line </item>
+          <item> Bump the arterial line </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>COOL</tag>
+        <one-of>
+          <item> go on cool to twenty eight  sea</item>          
+        </one-of>
+      </item>
+    </one-of>
+  </rule>
+</grammar>

@@ -1,0 +1,282 @@
+fileFormatVersion: 2
+guid: 0414d6291b26cfe43b98329632cd8dc1
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Heart_Aorta_Bone001
+    100004: Heart_Aorta_Bone002
+    100006: Heart_Aorta_Bone003
+    100008: Heart_Aorta_Bone004
+    100010: Heart_Aorta_Bone005
+    100012: Heart_Aorta_Bone006
+    100014: Heart_Aorta_Bone007
+    100016: Heart_Aorta_Bone008
+    100018: Heart_Aorta_Bone009
+    100020: Heart_Base_Pul_Bone001
+    100022: Heart_I_VC end_Bone001
+    100024: Heart_I_VC_Bone001
+    100026: Heart_I_VC_Bone002
+    100028: Heart_IK Chain002
+    100030: Heart_IK Chain003
+    100032: Heart_IK Chain004
+    100034: Heart_IK Chain005
+    100036: Heart_IK Chain006
+    100038: Heart_IK Chain007
+    100040: Heart_IK Chain009
+    100042: Heart_IK Chain010
+    100044: Heart_L_Vent_Bone001
+    100046: Heart_L_Vent_Bone002
+    100048: Heart_L_Vent_end_Bone001
+    100050: Heart_L_Vent_Point00
+    100052: Heart_L_Vent_Point001
+    100054: Heart_Pul_Bone001
+    100056: Heart_Pul_Bone002
+    100058: Heart_Pul_Bone003
+    100060: Heart_Pul_Bone005
+    100062: Heart_Pul_Bone006
+    100064: Heart_Pul_end_Bone001
+    100066: Heart_Pul_V_Bone001
+    100068: Heart_Pul_V_Bone002
+    100070: Heart_Pul_V_end_Bone001
+    100072: Heart_Pulm_Bone004
+    100074: Heart_R_Vent_Bone001
+    100076: Heart_R_Vent_Bone002
+    100078: Heart_R_Vent_end_Bone001
+    100080: Heart_R_Vent_Point001
+    100082: Heart_R_Vent_Point002
+    100084: Heart_S_VC_Bone001
+    100086: Heart_S_VC_Bone002
+    100088: Heart_S_VC_Bone003
+    100090: Heart_S_VC_end_Bone001
+    100092: Low poly heart
+    400000: //RootNode
+    400002: Heart_Aorta_Bone001
+    400004: Heart_Aorta_Bone002
+    400006: Heart_Aorta_Bone003
+    400008: Heart_Aorta_Bone004
+    400010: Heart_Aorta_Bone005
+    400012: Heart_Aorta_Bone006
+    400014: Heart_Aorta_Bone007
+    400016: Heart_Aorta_Bone008
+    400018: Heart_Aorta_Bone009
+    400020: Heart_Base_Pul_Bone001
+    400022: Heart_I_VC end_Bone001
+    400024: Heart_I_VC_Bone001
+    400026: Heart_I_VC_Bone002
+    400028: Heart_IK Chain002
+    400030: Heart_IK Chain003
+    400032: Heart_IK Chain004
+    400034: Heart_IK Chain005
+    400036: Heart_IK Chain006
+    400038: Heart_IK Chain007
+    400040: Heart_IK Chain009
+    400042: Heart_IK Chain010
+    400044: Heart_L_Vent_Bone001
+    400046: Heart_L_Vent_Bone002
+    400048: Heart_L_Vent_end_Bone001
+    400050: Heart_L_Vent_Point00
+    400052: Heart_L_Vent_Point001
+    400054: Heart_Pul_Bone001
+    400056: Heart_Pul_Bone002
+    400058: Heart_Pul_Bone003
+    400060: Heart_Pul_Bone005
+    400062: Heart_Pul_Bone006
+    400064: Heart_Pul_end_Bone001
+    400066: Heart_Pul_V_Bone001
+    400068: Heart_Pul_V_Bone002
+    400070: Heart_Pul_V_end_Bone001
+    400072: Heart_Pulm_Bone004
+    400074: Heart_R_Vent_Bone001
+    400076: Heart_R_Vent_Bone002
+    400078: Heart_R_Vent_end_Bone001
+    400080: Heart_R_Vent_Point001
+    400082: Heart_R_Vent_Point002
+    400084: Heart_S_VC_Bone001
+    400086: Heart_S_VC_Bone002
+    400088: Heart_S_VC_Bone003
+    400090: Heart_S_VC_end_Bone001
+    400092: Low poly heart
+    4300000: Low poly heart
+    7400000: Heart_Beating
+    9500000: //RootNode
+    13700000: Low poly heart
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Heart_Beating
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 24
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Heart_Base_Pul_Bone001
+        weight: 1
+      - path: Heart_Base_Pul_Bone001/Heart_Aorta_Bone001
+        weight: 1
+      - path: Heart_Base_Pul_Bone001/Heart_Aorta_Bone001/Heart_Aorta_Bone002
+        weight: 1
+      - path: Heart_Base_Pul_Bone001/Heart_Aorta_Bone001/Heart_Aorta_Bone002/Heart_Aorta_Bone003
+        weight: 1
+      - path: Heart_Base_Pul_Bone001/Heart_Aorta_Bone001/Heart_Aorta_Bone002/Heart_Aorta_Bone003/Heart_Aorta_Bone004
+        weight: 1
+      - path: Heart_Base_Pul_Bone001/Heart_Aorta_Bone001/Heart_Aorta_Bone002/Heart_Aorta_Bone003/Heart_Aorta_Bone004/Heart_Aorta_Bone005
+        weight: 1
+      - path: Heart_Base_Pul_Bone001/Heart_Aorta_Bone001/Heart_Aorta_Bone002/Heart_Aorta_Bone003/Heart_Aorta_Bone004/Heart_Aorta_Bone005/Heart_Aorta_Bone006
+        weight: 1
+      - path: Heart_Base_Pul_Bone001/Heart_Aorta_Bone001/Heart_Aorta_Bone002/Heart_Aorta_Bone003/Heart_Aorta_Bone004/Heart_Aorta_Bone005/Heart_Aorta_Bone006/Heart_Aorta_Bone007
+        weight: 1
+      - path: Heart_Base_Pul_Bone001/Heart_Aorta_Bone001/Heart_Aorta_Bone002/Heart_Aorta_Bone003/Heart_Aorta_Bone004/Heart_Aorta_Bone005/Heart_Aorta_Bone006/Heart_Aorta_Bone007/Heart_Aorta_Bone008
+        weight: 1
+      - path: Heart_Base_Pul_Bone001/Heart_Aorta_Bone001/Heart_Aorta_Bone002/Heart_Aorta_Bone003/Heart_Aorta_Bone004/Heart_Aorta_Bone005/Heart_Aorta_Bone006/Heart_Aorta_Bone007/Heart_Aorta_Bone008/Heart_Aorta_Bone009
+        weight: 1
+      - path: Heart_Base_Pul_Bone001/Heart_Aorta_Bone001/Heart_Aorta_Bone002/Heart_Aorta_Bone003/Heart_Aorta_Bone004/Heart_Aorta_Bone005/Heart_Aorta_Bone006/Heart_Aorta_Bone007/Heart_Aorta_Bone008/Heart_Aorta_Bone009/Heart_R_Vent_Bone001
+        weight: 1
+      - path: Heart_Base_Pul_Bone001/Heart_Aorta_Bone001/Heart_Aorta_Bone002/Heart_Aorta_Bone003/Heart_Aorta_Bone004/Heart_Aorta_Bone005/Heart_Aorta_Bone006/Heart_Aorta_Bone007/Heart_Aorta_Bone008/Heart_Aorta_Bone009/Heart_R_Vent_Bone001/Heart_R_Vent_Bone002
+        weight: 1
+      - path: Heart_Base_Pul_Bone001/Heart_Aorta_Bone001/Heart_Aorta_Bone002/Heart_Aorta_Bone003/Heart_Aorta_Bone004/Heart_Aorta_Bone005/Heart_Aorta_Bone006/Heart_Aorta_Bone007/Heart_Aorta_Bone008/Heart_Aorta_Bone009/Heart_R_Vent_Bone001/Heart_R_Vent_Bone002/Heart_R_Vent_end_Bone001
+        weight: 1
+      - path: Heart_Base_Pul_Bone001/Heart_Pul_Bone001
+        weight: 1
+      - path: Heart_Base_Pul_Bone001/Heart_Pul_Bone001/Heart_Pul_Bone002
+        weight: 1
+      - path: Heart_Base_Pul_Bone001/Heart_Pul_Bone001/Heart_Pul_Bone002/Heart_Pul_Bone003
+        weight: 1
+      - path: Heart_Base_Pul_Bone001/Heart_Pul_Bone001/Heart_Pul_Bone002/Heart_Pul_Bone003/Heart_Pulm_Bone004
+        weight: 1
+      - path: Heart_Base_Pul_Bone001/Heart_Pul_Bone001/Heart_Pul_Bone002/Heart_Pul_Bone003/Heart_Pulm_Bone004/Heart_L_Vent_Bone001
+        weight: 1
+      - path: Heart_Base_Pul_Bone001/Heart_Pul_Bone001/Heart_Pul_Bone002/Heart_Pul_Bone003/Heart_Pulm_Bone004/Heart_L_Vent_Bone001/Heart_L_Vent_Bone002
+        weight: 1
+      - path: Heart_Base_Pul_Bone001/Heart_Pul_Bone001/Heart_Pul_Bone002/Heart_Pul_Bone003/Heart_Pulm_Bone004/Heart_L_Vent_Bone001/Heart_L_Vent_Bone002/Heart_L_Vent_end_Bone001
+        weight: 1
+      - path: Heart_Base_Pul_Bone001/Heart_Pul_Bone001/Heart_Pul_Bone002/Heart_Pul_Bone005
+        weight: 1
+      - path: Heart_Base_Pul_Bone001/Heart_Pul_Bone001/Heart_Pul_Bone002/Heart_Pul_Bone005/Heart_Pul_Bone006
+        weight: 1
+      - path: Heart_Base_Pul_Bone001/Heart_Pul_Bone001/Heart_Pul_Bone002/Heart_Pul_Bone005/Heart_Pul_Bone006/Heart_Pul_end_Bone001
+        weight: 1
+      - path: Heart_Base_Pul_Bone001/Heart_Pul_V_Bone001
+        weight: 1
+      - path: Heart_Base_Pul_Bone001/Heart_Pul_V_Bone001/Heart_Pul_V_Bone002
+        weight: 1
+      - path: Heart_Base_Pul_Bone001/Heart_Pul_V_Bone001/Heart_Pul_V_Bone002/Heart_Pul_V_end_Bone001
+        weight: 1
+      - path: Heart_IK Chain006
+        weight: 1
+      - path: Heart_IK Chain007
+        weight: 1
+      - path: Heart_IK Chain009
+        weight: 1
+      - path: Heart_IK Chain010
+        weight: 1
+      - path: Heart_L_Vent_Point00
+        weight: 1
+      - path: Heart_L_Vent_Point00/Heart_IK Chain004
+        weight: 1
+      - path: Heart_L_Vent_Point001
+        weight: 1
+      - path: Heart_L_Vent_Point001/Heart_IK Chain003
+        weight: 1
+      - path: Heart_R_Vent_Point001
+        weight: 1
+      - path: Heart_R_Vent_Point001/Heart_I_VC_Bone001
+        weight: 1
+      - path: Heart_R_Vent_Point001/Heart_I_VC_Bone001/Heart_I_VC_Bone002
+        weight: 1
+      - path: Heart_R_Vent_Point001/Heart_I_VC_Bone001/Heart_I_VC_Bone002/Heart_I_VC
+          end_Bone001
+        weight: 1
+      - path: Heart_R_Vent_Point001/Heart_IK Chain005
+        weight: 1
+      - path: Heart_R_Vent_Point001/Heart_S_VC_Bone001
+        weight: 1
+      - path: Heart_R_Vent_Point001/Heart_S_VC_Bone001/Heart_S_VC_Bone002
+        weight: 1
+      - path: Heart_R_Vent_Point001/Heart_S_VC_Bone001/Heart_S_VC_Bone002/Heart_S_VC_Bone003
+        weight: 1
+      - path: Heart_R_Vent_Point001/Heart_S_VC_Bone001/Heart_S_VC_Bone002/Heart_S_VC_Bone003/Heart_S_VC_end_Bone001
+        weight: 1
+      - path: Heart_R_Vent_Point002
+        weight: 1
+      - path: Heart_R_Vent_Point002/Heart_IK Chain002
+        weight: 1
+      - path: Low poly heart
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

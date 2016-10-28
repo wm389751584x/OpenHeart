@@ -1,0 +1,610 @@
+fileFormatVersion: 2
+guid: af40d9a9e12affb449c770e467fac614
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: BoneRFirst Finger002
+    100002: BoneRFirstFinger005
+    100004: BoneRFirstFinger006
+    100006: BoneRFirstFinger007
+    100008: BoneRForthFing005
+    100010: BoneRForthFing006
+    100012: BoneRForthFing007
+    100014: BoneRForthFing008
+    100016: BoneRSeconFing005
+    100018: BoneRSeconFing006
+    100020: BoneRSeconFing007
+    100022: BoneRSeconFing008
+    100024: BoneRThrdFing005
+    100026: BoneRThrdFing006
+    100028: BoneRThrdFing007
+    100030: BoneRThrdFing008
+    100032: BoneRThumb004
+    100034: BoneRThumb005
+    100036: BoneRThumb006
+    100038: BoneRWrist002
+    100040: R glove ring
+    100042: R hand control
+    100044: //RootNode
+    100046: RightthandZ
+    100048: Small_clamp_L
+    100050: Small_clamp_R
+    400000: BoneRFirst Finger002
+    400002: BoneRFirstFinger005
+    400004: BoneRFirstFinger006
+    400006: BoneRFirstFinger007
+    400008: BoneRForthFing005
+    400010: BoneRForthFing006
+    400012: BoneRForthFing007
+    400014: BoneRForthFing008
+    400016: BoneRSeconFing005
+    400018: BoneRSeconFing006
+    400020: BoneRSeconFing007
+    400022: BoneRSeconFing008
+    400024: BoneRThrdFing005
+    400026: BoneRThrdFing006
+    400028: BoneRThrdFing007
+    400030: BoneRThrdFing008
+    400032: BoneRThumb004
+    400034: BoneRThumb005
+    400036: BoneRThumb006
+    400038: BoneRWrist002
+    400040: R glove ring
+    400042: R hand control
+    400044: //RootNode
+    400046: RightthandZ
+    400048: Small_clamp_L
+    400050: Small_clamp_R
+    2300000: R glove ring
+    2300002: Small_clamp_L
+    2300004: Small_clamp_R
+    3300000: R glove ring
+    3300002: Small_clamp_L
+    3300004: Small_clamp_R
+    4300000: R glove ring
+    4300002: RightthandZ
+    4300004: Small_clamp_L
+    4300006: Small_clamp_R
+    6400000: R glove ring
+    6400002: Small_clamp_L
+    6400004: Small_clamp_R
+    7400000: Clamp Small Clamp
+    7400002: Grab Small Clamp
+    7400004: Idle Small Clamp
+    7400006: Release and Leave Small Clamp
+    7400008: HoldingDownClamp
+    7400010: UnclampSmallClamp
+    9500000: //RootNode
+    13700000: RightthandZ
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Clamp Small Clamp
+      takeName: Take 001
+      firstFrame: 32
+      lastFrame: 43
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: R hand control
+        weight: 1
+      - path: R hand control/BoneRWrist002
+        weight: 1
+      - path: R hand control/BoneRWrist002/BoneRFirst Finger002
+        weight: 1
+      - path: R hand control/BoneRWrist002/BoneRFirst Finger002/BoneRFirstFinger005
+        weight: 1
+      - path: R hand control/BoneRWrist002/BoneRFirst Finger002/BoneRFirstFinger005/BoneRFirstFinger006
+        weight: 1
+      - path: R hand control/BoneRWrist002/BoneRFirst Finger002/BoneRFirstFinger005/BoneRFirstFinger006/BoneRFirstFinger007
+        weight: 1
+      - path: R hand control/BoneRWrist002/BoneRForthFing006
+        weight: 1
+      - path: R hand control/BoneRWrist002/BoneRForthFing006/BoneRForthFing007
+        weight: 1
+      - path: R hand control/BoneRWrist002/BoneRForthFing006/BoneRForthFing007/BoneRForthFing008
+        weight: 1
+      - path: R hand control/BoneRWrist002/BoneRForthFing006/BoneRForthFing007/BoneRForthFing008/BoneRForthFing005
+        weight: 1
+      - path: R hand control/BoneRWrist002/BoneRSeconFing006
+        weight: 1
+      - path: R hand control/BoneRWrist002/BoneRSeconFing006/BoneRSeconFing005
+        weight: 1
+      - path: R hand control/BoneRWrist002/BoneRSeconFing006/BoneRSeconFing005/BoneRSeconFing007
+        weight: 1
+      - path: R hand control/BoneRWrist002/BoneRSeconFing006/BoneRSeconFing005/BoneRSeconFing007/BoneRSeconFing008
+        weight: 1
+      - path: R hand control/BoneRWrist002/BoneRThrdFing005
+        weight: 1
+      - path: R hand control/BoneRWrist002/BoneRThrdFing005/BoneRThrdFing006
+        weight: 1
+      - path: R hand control/BoneRWrist002/BoneRThrdFing005/BoneRThrdFing006/BoneRThrdFing007
+        weight: 1
+      - path: R hand control/BoneRWrist002/BoneRThrdFing005/BoneRThrdFing006/BoneRThrdFing007/BoneRThrdFing008
+        weight: 1
+      - path: R hand control/BoneRWrist002/BoneRThumb004
+        weight: 1
+      - path: R hand control/BoneRWrist002/BoneRThumb004/BoneRThumb005
+        weight: 1
+      - path: R hand control/BoneRWrist002/BoneRThumb004/BoneRThumb005/BoneRThumb006
+        weight: 1
+      - path: R hand control/R glove ring
+        weight: 1
+      - path: RightthandZ
+        weight: 1
+      - path: Small_clamp_L
+        weight: 1
+      - path: Small_clamp_R
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Grab Small Clamp
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 27
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: R hand control
+        weight: 1
+      - path: R hand control/BoneRWrist002
+        weight: 1
+      - path: R hand control/BoneRWrist002/BoneRFirst Finger002
+        weight: 1
+      - path: R hand control/BoneRWrist002/BoneRFirst Finger002/BoneRFirstFinger005
+        weight: 1
+      - path: R hand control/BoneRWrist002/BoneRFirst Finger002/BoneRFirstFinger005/BoneRFirstFinger006
+        weight: 1
+      - path: R hand control/BoneRWrist002/BoneRFirst Finger002/BoneRFirstFinger005/BoneRFirstFinger006/BoneRFirstFinger007
+        weight: 1
+      - path: R hand control/BoneRWrist002/BoneRForthFing006
+        weight: 1
+      - path: R hand control/BoneRWrist002/BoneRForthFing006/BoneRForthFing007
+        weight: 1
+      - path: R hand control/BoneRWrist002/BoneRForthFing006/BoneRForthFing007/BoneRForthFing008
+        weight: 1
+      - path: R hand control/BoneRWrist002/BoneRForthFing006/BoneRForthFing007/BoneRForthFing008/BoneRForthFing005
+        weight: 1
+      - path: R hand control/BoneRWrist002/BoneRSeconFing006
+        weight: 1
+      - path: R hand control/BoneRWrist002/BoneRSeconFing006/BoneRSeconFing005
+        weight: 1
+      - path: R hand control/BoneRWrist002/BoneRSeconFing006/BoneRSeconFing005/BoneRSeconFing007
+        weight: 1
+      - path: R hand control/BoneRWrist002/BoneRSeconFing006/BoneRSeconFing005/BoneRSeconFing007/BoneRSeconFing008
+        weight: 1
+      - path: R hand control/BoneRWrist002/BoneRThrdFing005
+        weight: 1
+      - path: R hand control/BoneRWrist002/BoneRThrdFing005/BoneRThrdFing006
+        weight: 1
+      - path: R hand control/BoneRWrist002/BoneRThrdFing005/BoneRThrdFing006/BoneRThrdFing007
+        weight: 1
+      - path: R hand control/BoneRWrist002/BoneRThrdFing005/BoneRThrdFing006/BoneRThrdFing007/BoneRThrdFing008
+        weight: 1
+      - path: R hand control/BoneRWrist002/BoneRThumb004
+        weight: 1
+      - path: R hand control/BoneRWrist002/BoneRThumb004/BoneRThumb005
+        weight: 1
+      - path: R hand control/BoneRWrist002/BoneRThumb004/BoneRThumb005/BoneRThumb006
+        weight: 1
+      - path: R hand control/R glove ring
+        weight: 1
+      - path: RightthandZ
+        weight: 1
+      - path: Small_clamp_L
+        weight: 1
+      - path: Small_clamp_R
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Idle Small Clamp
+      takeName: Take 001
+      firstFrame: 29
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: R hand control
+        weight: 1
+      - path: R hand control/BoneRWrist002
+        weight: 1
+      - path: R hand control/BoneRWrist002/BoneRFirst Finger002
+        weight: 1
+      - path: R hand control/BoneRWrist002/BoneRFirst Finger002/BoneRFirstFinger005
+        weight: 1
+      - path: R hand control/BoneRWrist002/BoneRFirst Finger002/BoneRFirstFinger005/BoneRFirstFinger006
+        weight: 1
+      - path: R hand control/BoneRWrist002/BoneRFirst Finger002/BoneRFirstFinger005/BoneRFirstFinger006/BoneRFirstFinger007
+        weight: 1
+      - path: R hand control/BoneRWrist002/BoneRForthFing006
+        weight: 1
+      - path: R hand control/BoneRWrist002/BoneRForthFing006/BoneRForthFing007
+        weight: 1
+      - path: R hand control/BoneRWrist002/BoneRForthFing006/BoneRForthFing007/BoneRForthFing008
+        weight: 1
+      - path: R hand control/BoneRWrist002/BoneRForthFing006/BoneRForthFing007/BoneRForthFing008/BoneRForthFing005
+        weight: 1
+      - path: R hand control/BoneRWrist002/BoneRSeconFing006
+        weight: 1
+      - path: R hand control/BoneRWrist002/BoneRSeconFing006/BoneRSeconFing005
+        weight: 1
+      - path: R hand control/BoneRWrist002/BoneRSeconFing006/BoneRSeconFing005/BoneRSeconFing007
+        weight: 1
+      - path: R hand control/BoneRWrist002/BoneRSeconFing006/BoneRSeconFing005/BoneRSeconFing007/BoneRSeconFing008
+        weight: 1
+      - path: R hand control/BoneRWrist002/BoneRThrdFing005
+        weight: 1
+      - path: R hand control/BoneRWrist002/BoneRThrdFing005/BoneRThrdFing006
+        weight: 1
+      - path: R hand control/BoneRWrist002/BoneRThrdFing005/BoneRThrdFing006/BoneRThrdFing007
+        weight: 1
+      - path: R hand control/BoneRWrist002/BoneRThrdFing005/BoneRThrdFing006/BoneRThrdFing007/BoneRThrdFing008
+        weight: 1
+      - path: R hand control/BoneRWrist002/BoneRThumb004
+        weight: 1
+      - path: R hand control/BoneRWrist002/BoneRThumb004/BoneRThumb005
+        weight: 1
+      - path: R hand control/BoneRWrist002/BoneRThumb004/BoneRThumb005/BoneRThumb006
+        weight: 1
+      - path: R hand control/R glove ring
+        weight: 1
+      - path: RightthandZ
+        weight: 1
+      - path: Small_clamp_L
+        weight: 1
+      - path: Small_clamp_R
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Release and Leave Small Clamp
+      takeName: Take 001
+      firstFrame: 47
+      lastFrame: 80
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: R hand control
+        weight: 1
+      - path: R hand control/BoneRWrist002
+        weight: 1
+      - path: R hand control/BoneRWrist002/BoneRFirst Finger002
+        weight: 1
+      - path: R hand control/BoneRWrist002/BoneRFirst Finger002/BoneRFirstFinger005
+        weight: 1
+      - path: R hand control/BoneRWrist002/BoneRFirst Finger002/BoneRFirstFinger005/BoneRFirstFinger006
+        weight: 1
+      - path: R hand control/BoneRWrist002/BoneRFirst Finger002/BoneRFirstFinger005/BoneRFirstFinger006/BoneRFirstFinger007
+        weight: 1
+      - path: R hand control/BoneRWrist002/BoneRForthFing006
+        weight: 1
+      - path: R hand control/BoneRWrist002/BoneRForthFing006/BoneRForthFing007
+        weight: 1
+      - path: R hand control/BoneRWrist002/BoneRForthFing006/BoneRForthFing007/BoneRForthFing008
+        weight: 1
+      - path: R hand control/BoneRWrist002/BoneRForthFing006/BoneRForthFing007/BoneRForthFing008/BoneRForthFing005
+        weight: 1
+      - path: R hand control/BoneRWrist002/BoneRSeconFing006
+        weight: 1
+      - path: R hand control/BoneRWrist002/BoneRSeconFing006/BoneRSeconFing005
+        weight: 1
+      - path: R hand control/BoneRWrist002/BoneRSeconFing006/BoneRSeconFing005/BoneRSeconFing007
+        weight: 1
+      - path: R hand control/BoneRWrist002/BoneRSeconFing006/BoneRSeconFing005/BoneRSeconFing007/BoneRSeconFing008
+        weight: 1
+      - path: R hand control/BoneRWrist002/BoneRThrdFing005
+        weight: 1
+      - path: R hand control/BoneRWrist002/BoneRThrdFing005/BoneRThrdFing006
+        weight: 1
+      - path: R hand control/BoneRWrist002/BoneRThrdFing005/BoneRThrdFing006/BoneRThrdFing007
+        weight: 1
+      - path: R hand control/BoneRWrist002/BoneRThrdFing005/BoneRThrdFing006/BoneRThrdFing007/BoneRThrdFing008
+        weight: 1
+      - path: R hand control/BoneRWrist002/BoneRThumb004
+        weight: 1
+      - path: R hand control/BoneRWrist002/BoneRThumb004/BoneRThumb005
+        weight: 1
+      - path: R hand control/BoneRWrist002/BoneRThumb004/BoneRThumb005/BoneRThumb006
+        weight: 1
+      - path: R hand control/R glove ring
+        weight: 1
+      - path: RightthandZ
+        weight: 1
+      - path: Small_clamp_L
+        weight: 1
+      - path: Small_clamp_R
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: HoldingDownClamp
+      takeName: Take 001
+      firstFrame: 46.9000015
+      lastFrame: 47
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: R hand control
+        weight: 1
+      - path: R hand control/BoneRWrist002
+        weight: 1
+      - path: R hand control/BoneRWrist002/BoneRFirst Finger002
+        weight: 1
+      - path: R hand control/BoneRWrist002/BoneRFirst Finger002/BoneRFirstFinger005
+        weight: 1
+      - path: R hand control/BoneRWrist002/BoneRFirst Finger002/BoneRFirstFinger005/BoneRFirstFinger006
+        weight: 1
+      - path: R hand control/BoneRWrist002/BoneRFirst Finger002/BoneRFirstFinger005/BoneRFirstFinger006/BoneRFirstFinger007
+        weight: 1
+      - path: R hand control/BoneRWrist002/BoneRForthFing006
+        weight: 1
+      - path: R hand control/BoneRWrist002/BoneRForthFing006/BoneRForthFing007
+        weight: 1
+      - path: R hand control/BoneRWrist002/BoneRForthFing006/BoneRForthFing007/BoneRForthFing008
+        weight: 1
+      - path: R hand control/BoneRWrist002/BoneRForthFing006/BoneRForthFing007/BoneRForthFing008/BoneRForthFing005
+        weight: 1
+      - path: R hand control/BoneRWrist002/BoneRSeconFing006
+        weight: 1
+      - path: R hand control/BoneRWrist002/BoneRSeconFing006/BoneRSeconFing005
+        weight: 1
+      - path: R hand control/BoneRWrist002/BoneRSeconFing006/BoneRSeconFing005/BoneRSeconFing007
+        weight: 1
+      - path: R hand control/BoneRWrist002/BoneRSeconFing006/BoneRSeconFing005/BoneRSeconFing007/BoneRSeconFing008
+        weight: 1
+      - path: R hand control/BoneRWrist002/BoneRThrdFing005
+        weight: 1
+      - path: R hand control/BoneRWrist002/BoneRThrdFing005/BoneRThrdFing006
+        weight: 1
+      - path: R hand control/BoneRWrist002/BoneRThrdFing005/BoneRThrdFing006/BoneRThrdFing007
+        weight: 1
+      - path: R hand control/BoneRWrist002/BoneRThrdFing005/BoneRThrdFing006/BoneRThrdFing007/BoneRThrdFing008
+        weight: 1
+      - path: R hand control/BoneRWrist002/BoneRThumb004
+        weight: 1
+      - path: R hand control/BoneRWrist002/BoneRThumb004/BoneRThumb005
+        weight: 1
+      - path: R hand control/BoneRWrist002/BoneRThumb004/BoneRThumb005/BoneRThumb006
+        weight: 1
+      - path: R hand control/R glove ring
+        weight: 1
+      - path: RightthandZ
+        weight: 1
+      - path: Small_clamp_L
+        weight: 1
+      - path: Small_clamp_R
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: UnclampSmallClamp
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 47
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: R hand control
+        weight: 1
+      - path: R hand control/BoneRWrist002
+        weight: 1
+      - path: R hand control/BoneRWrist002/BoneRFirst Finger002
+        weight: 1
+      - path: R hand control/BoneRWrist002/BoneRFirst Finger002/BoneRFirstFinger005
+        weight: 1
+      - path: R hand control/BoneRWrist002/BoneRFirst Finger002/BoneRFirstFinger005/BoneRFirstFinger006
+        weight: 1
+      - path: R hand control/BoneRWrist002/BoneRFirst Finger002/BoneRFirstFinger005/BoneRFirstFinger006/BoneRFirstFinger007
+        weight: 1
+      - path: R hand control/BoneRWrist002/BoneRForthFing006
+        weight: 1
+      - path: R hand control/BoneRWrist002/BoneRForthFing006/BoneRForthFing007
+        weight: 1
+      - path: R hand control/BoneRWrist002/BoneRForthFing006/BoneRForthFing007/BoneRForthFing008
+        weight: 1
+      - path: R hand control/BoneRWrist002/BoneRForthFing006/BoneRForthFing007/BoneRForthFing008/BoneRForthFing005
+        weight: 1
+      - path: R hand control/BoneRWrist002/BoneRSeconFing006
+        weight: 1
+      - path: R hand control/BoneRWrist002/BoneRSeconFing006/BoneRSeconFing005
+        weight: 1
+      - path: R hand control/BoneRWrist002/BoneRSeconFing006/BoneRSeconFing005/BoneRSeconFing007
+        weight: 1
+      - path: R hand control/BoneRWrist002/BoneRSeconFing006/BoneRSeconFing005/BoneRSeconFing007/BoneRSeconFing008
+        weight: 1
+      - path: R hand control/BoneRWrist002/BoneRThrdFing005
+        weight: 1
+      - path: R hand control/BoneRWrist002/BoneRThrdFing005/BoneRThrdFing006
+        weight: 1
+      - path: R hand control/BoneRWrist002/BoneRThrdFing005/BoneRThrdFing006/BoneRThrdFing007
+        weight: 1
+      - path: R hand control/BoneRWrist002/BoneRThrdFing005/BoneRThrdFing006/BoneRThrdFing007/BoneRThrdFing008
+        weight: 1
+      - path: R hand control/BoneRWrist002/BoneRThumb004
+        weight: 1
+      - path: R hand control/BoneRWrist002/BoneRThumb004/BoneRThumb005
+        weight: 1
+      - path: R hand control/BoneRWrist002/BoneRThumb004/BoneRThumb005/BoneRThumb006
+        weight: 1
+      - path: R hand control/R glove ring
+        weight: 1
+      - path: RightthandZ
+        weight: 1
+      - path: Small_clamp_L
+        weight: 1
+      - path: Small_clamp_R
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

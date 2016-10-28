@@ -1,0 +1,59 @@
+Initialize engine version: 5.1.2f1 (afd2369b692a)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 560M     (ID=0x1251)
+    Vendor:   NVIDIA
+    VRAM:     1503 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: D:\SALSI\Open_Heart_Game\BuildTester_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading D:\SALSI\Open_Heart_Game\BuildTester_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: D:\SALSI\Open_Heart_Game\BuildTester_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading D:\SALSI\Open_Heart_Game\BuildTester_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: D:\SALSI\Open_Heart_Game\BuildTester_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading D:\SALSI\Open_Heart_Game\BuildTester_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: D:\SALSI\Open_Heart_Game\BuildTester_Data\Managed\Assembly-UnityScript-firstpass.dll (this message is harmless)
+Loading D:\SALSI\Open_Heart_Game\BuildTester_Data\Managed\Assembly-UnityScript-firstpass.dll into Unity Child Domain
+Platform assembly: D:\SALSI\Open_Heart_Game\BuildTester_Data\Managed\Assembly-UnityScript.dll (this message is harmless)
+Loading D:\SALSI\Open_Heart_Game\BuildTester_Data\Managed\Assembly-UnityScript.dll into Unity Child Domain
+Platform assembly: D:\SALSI\Open_Heart_Game\BuildTester_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading D:\SALSI\Open_Heart_Game\BuildTester_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: D:\SALSI\Open_Heart_Game\BuildTester_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading D:\SALSI\Open_Heart_Game\BuildTester_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: D:\SALSI\Open_Heart_Game\BuildTester_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
+Loading D:\SALSI\Open_Heart_Game\BuildTester_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
+- Completed reload, in  0.169 seconds
+<RI> Initializing input.
+<RI> Input initialized.
+desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
+<RI> Initialized touch support.
+Platform assembly: D:\SALSI\Open_Heart_Game\BuildTester_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: D:\SALSI\Open_Heart_Game\BuildTester_Data\Managed\System.dll (this message is harmless)
+Shader 'Legacy Shaders/Reflective/Diffuse': fallback shader 'Legacy Shaders/Reflective/VertexLit' not found
+Shader 'Legacy Shaders/Reflective/Specular': fallback shader 'Legacy Shaders/Reflective/VertexLit' not found
+Unable initialize VR. Please make sure the runtime is installed and running and a VR display is attached.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+NO AVAILABLE KINECT DETECTED!
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 65)
+
+Platform assembly: D:\SALSI\Open_Heart_Game\BuildTester_Data\Managed\System.Xml.Linq.dll (this message is harmless)
+Platform assembly: D:\SALSI\Open_Heart_Game\BuildTester_Data\Managed\System.Xml.dll (this message is harmless)
+IsolatedStorageException: Could not find a part of the path "D:\SALSI\Open_Heart_Game\BuildTester_Data\Scripts\ScenarioScripts\AirInAortaDecisions\AirInAortaDecisionTree.xml".
+  at System.IO.FileStream..ctor (System.String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, Boolean anonymous, FileOptions options) [0x00000] in <filename unknown>:0 
+  at System.IO.FileStream..ctor (System.String path, FileMode mode, FileAccess access, FileShare share) [0x00000] in <filename unknown>:0 
+  at System.Xml.XmlUrlResolver.GetEntity (System.Uri absoluteUri, System.String role, System.Type ofObjectToReturn) [0x00000] in <filename unknown>:0 
+  at Mono.Xml2.XmlTextReader.GetStreamFromUrl (System.String url, System.String& absoluteUriString) [0x00000] in <filename unknown>:0 
+  at Mono.Xml2.XmlTextReader..ctor (Boolean dummy, System.Xml.XmlResolver resolver, System.String url, XmlNodeType fragType, System.Xml.XmlParserContext context) [0x00000] in <filename unknown>:0 
+  at System.Xml.XmlTextReader..ctor (Boolean dummy, System.Xml.XmlResolver resolver, System.String url, XmlNodeType fragType, System.Xml.XmlParserContext context) [0x00000] in <filename unknown>:0 
+  at System.Xml.XmlReader.Create (System.String url, System.Xml.XmlReaderSettings settings, System.Xml.XmlParserContext context) [0x00000] in <filename unknown>:0 
+  at System.Xml.XmlReader.Create (System.String url, System.Xml.XmlReaderSettings settings) [0x00000] in <filename unknown>:0 
+  at System.Xml.Linq.XDocument.Load (System.String uri, LoadOptions options) [0x00000] in <filename unknown>:0 
+  at System.Xml.Linq.XDocument.Load (System.String uri) [0x00000] in <filename unknown>:0 
+  at DFSConstructFromXML.DFSConstructTreeFromXML (System.String filename) [0x00000] in <filename unknown>:0 
+  at DecisionTree.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+

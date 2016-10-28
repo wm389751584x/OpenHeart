@@ -1,0 +1,134 @@
+fileFormatVersion: 2
+guid: c12d9510be8e7d34693a6c6ef89eadbd
+timeCreated: 1436580756
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: VC_Bone001
+    100002: VC_Bone002
+    100004: VC_Bone003
+    100006: VC_Bone004
+    100008: VC_Bone005
+    100010: VC_Bone006
+    100012: VC_Bone007
+    100014: VC_Bone008
+    100016: VC_End_Bone009
+    100018: VC_Tube_Bone001
+    100020: VC_Tube_Bone002
+    100022: VC_Tube_Bone003
+    100024: VC_Tube_Bone004
+    100026: VC_Tube_Bone005
+    100028: VC_Tube_Bone006
+    100030: VC_Tube_Bone007
+    100032: VC_Tube_Bone008
+    100034: VC_Tube_Bone009
+    100036: VC_Tube_Bone010
+    100038: VC_Tube_Bone011
+    100040: VC_Tube_Bone012
+    100042: VC_Tube_Bone013
+    100044: VC_Tube_Bone014
+    100046: VC_Tube_Bone015
+    100048: VC_Tube_Bone016
+    100050: VC_Tube_Bone017
+    100052: VC_Tube_End_Bone018
+    100054: Venous Cannula Tube
+    100056: Venous cannula001
+    100058: //RootNode
+    400000: VC_Bone001
+    400002: VC_Bone002
+    400004: VC_Bone003
+    400006: VC_Bone004
+    400008: VC_Bone005
+    400010: VC_Bone006
+    400012: VC_Bone007
+    400014: VC_Bone008
+    400016: VC_End_Bone009
+    400018: VC_Tube_Bone001
+    400020: VC_Tube_Bone002
+    400022: VC_Tube_Bone003
+    400024: VC_Tube_Bone004
+    400026: VC_Tube_Bone005
+    400028: VC_Tube_Bone006
+    400030: VC_Tube_Bone007
+    400032: VC_Tube_Bone008
+    400034: VC_Tube_Bone009
+    400036: VC_Tube_Bone010
+    400038: VC_Tube_Bone011
+    400040: VC_Tube_Bone012
+    400042: VC_Tube_Bone013
+    400044: VC_Tube_Bone014
+    400046: VC_Tube_Bone015
+    400048: VC_Tube_Bone016
+    400050: VC_Tube_Bone017
+    400052: VC_Tube_End_Bone018
+    400054: Venous Cannula Tube
+    400056: Venous cannula001
+    400058: //RootNode
+    4300000: Venous cannula001
+    4300002: Venous Cannula Tube
+    9500000: //RootNode
+    13700000: Venous Cannula Tube
+    13700002: Venous cannula001
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
